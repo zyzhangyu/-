@@ -1,9 +1,12 @@
 import { FC } from "react";
 import Head from "next/head";
-import Sidebar from "../components/kit/navigation/sidebar/sidebar";
+import Sidebar from "../components/kit/navigation/sidebar/Sidebar";
 import Avatar from "../components/kit/navigation/sidebar/Avatar";
+import DateFC from "../components/common/date";
+import Home from "./home";
 
-const Home: FC = () => {
+const Main: FC = () => {
+
   const linksWithIcons = [
     {
       label: "Home",
@@ -100,18 +103,17 @@ const Home: FC = () => {
   ];
   const headerImg = "/icons/rocket.svg";
   const headerText = "Tailwind-kit";
-
   return (
     <div>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      123123
       <div className={"flex h-20 w-20  ml-7"}>
-      <Avatar img=" /profile.jpg"></Avatar>
-
+      {/* <Avatar img=" /profile.jpg"></Avatar>
       </div>
+      <DateFC dateString={ '2020-01-01 08:43' }></DateFC>
+
       <Sidebar
         links={linksWithIcons}
         headerImg={headerImg}
@@ -119,8 +121,13 @@ const Home: FC = () => {
         withBorder={false}
         withDivider={false}
       ></Sidebar>
+
+      <div className={" max-w-screen-lg"}> */}
+      <Home></Home>
+      </div>
+      
     </div>
   );
 };
 
-export default Home;
+export default Main;

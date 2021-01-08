@@ -1,0 +1,58 @@
+
+
+.bg {
+
+    width: 250px;
+    height: 36px;
+}
+
+.container {
+
+    height: 36px;
+    width: 250px;
+    /* background: chartreuse; */
+    /* padding:0 25px; */
+    position: relative;
+    /* padding-left: 10px; */
+
+    /* margin-right: ; */
+    background-color: gainsboro;
+    border-radius: 8px;
+
+}
+
+.search {
+    width: 220px;
+    background-color: gainsboro;
+    height: 36px;
+    border-color: coral;
+    padding-left: 8px;
+    float: left;
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-right: 15px;
+    outline:none;
+
+    /* border:none; */
+    /**修改颜色*/
+    /* outline-color: "red"; */
+
+}
+
+.icons {
+    padding-top: 5.5px;
+    padding-left: 6px;
+    /* margin-right: 250px; */
+    margin-left: -30px;
+    /* margin-left: -30px;  */
+    display: inline;
+    float: right;
+    width: 36px;
+    height: 36px;
+    /* right: 20px; */
+    background: burlywood;
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    border-radius: 8px;
+}

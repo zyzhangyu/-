@@ -38,7 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## 使用到的npm包
 
 ### Tailwind CSS 
-
+### date-fns 格式化日期使用过的库
 
 
 根目录下的tailwind.config.js 是通过npx tailwindcss init -p 命令创建出来的
