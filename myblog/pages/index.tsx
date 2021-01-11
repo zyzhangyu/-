@@ -2,8 +2,11 @@ import { FC } from "react";
 import Head from "next/head";
 import Sidebar from "../components/kit/navigation/sidebar/Sidebar";
 import Avatar from "../components/kit/navigation/sidebar/Avatar";
-import DateFC from "../components/common/date";
+import DateFC from "../components/common/DateFC";
 import Home from "./home";
+import ClassicShoppingCard from "../components/kit/navigation/sidebar/ClassicBlogCard";
+import styles1 from "./index.module.css";
+
 
 const Main: FC = () => {
 
@@ -124,7 +127,15 @@ const Main: FC = () => {
 
       <div className={" max-w-screen-lg"}> */}
       <Home></Home>
+
+      <div className={styles1.blogCard}>
+      {/* <div className="w-1/3 h-56 rounded-lg border-black bg-gray-800"> */}
+      <ClassicShoppingCard></ClassicShoppingCard>
       </div>
+      {/* </div> */}
+      </div>
+
+      <div className={styles1.bigArea}>11111111</div>
       
     </div>
   );

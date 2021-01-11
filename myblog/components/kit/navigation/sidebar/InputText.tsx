@@ -8,7 +8,7 @@ interface Props {
 const InputText = (props:Props) => {
     return (
 
-        <div className={`rounded-xl ${styles.bg}`}>
+        <div className={`rounded-xl bg-yellow-300 ${styles.bg}`}>
         <div className={styles.container}>
          
             <input type="text" placeholder={props.placeholder}
